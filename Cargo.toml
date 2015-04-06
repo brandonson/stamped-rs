@@ -1,0 +1,17 @@
+[package]
+name = "stamped"
+version = "0.0.1"
+authors = ["Brandon Sanderson <bas.bsanders@gmail.com>"]
+
+repository = "https://github.com/brandonson/stamped-rs"
+
+description = "Stamp your structures with things to order them by."
+license = "MIT"
+readme = "README.md"
+documentation = "https://brandonson.github.io/revord-rs/revord/index.html"
+
+[features]
+
+[dependencies.revord]
+version = "*"
+optional = true
